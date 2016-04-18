@@ -213,8 +213,8 @@ xrotate-1
     height: 100px;
 }
 
-img .projects {
-    height: 1000px;
+.projects {
+    height: 300px;
     width: 1000px;
 }
 
