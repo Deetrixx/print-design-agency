@@ -310,3 +310,75 @@ xrotate-1
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 0.3s;
 }
+
+
+/*******************************************************
+         Caption Hover Effect
+*******************************************************/
+
+.grid {
+    padding: 20px 20px 100px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    list-style: none;
+    text-align: center;
+}
+
+.grid li {
+    display: inline-block;
+    width: 400px;
+    margin: 0;
+    padding: 20px;
+    text-align: left;
+    position: relative;
+}
+
+.grid figure {
+    margin: 0;
+    position: relative;
+}
+
+
+/*The image will have a maximum width of 100% which will come in handy when we define a media query to resize the list items:*/
+
+.grid figure img {
+    max-width: 100%;
+    display: block;
+    position: relative;
+}
+
+
+/*
+The figcaption will be positioned absolutely. By default it will be positioned in the top left corner. We won’t define any width or height here as we will do so in all the individual styles:*/
+
+.grid figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    background: #2c3f52;
+    color: #ed4e6e;
+}
+
+
+/*And finally,
+let’s define some styles for the text elements and the link:*/
+
+.grid figcaption h3 {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.grid figcaption span:before {
+    content: 'by ';
+}
+
+.grid figcaption a {
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 2px;
+    display: inline-block;
+    background: #ed4e6e;
+    color: #fff;
+}
