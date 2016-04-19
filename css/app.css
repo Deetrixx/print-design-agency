@@ -316,6 +316,10 @@ xrotate-1
          Caption Hover Effect
 *******************************************************/
 
+#portfolio figure {
+    display: inline;
+}
+
 .grid {
     padding: 20px 20px 100px 20px;
     max-width: 1000px;
@@ -343,7 +347,7 @@ xrotate-1
 
 .grid figure img {
     max-width: 100%;
-    display: block;
+    display: inline-block;
     position: relative;
 }
 
@@ -381,4 +385,40 @@ let’s define some styles for the text elements and the link:*/
     display: inline-block;
     background: #ed4e6e;
     color: #fff;
+}
+
+.cs-style-1 figcaption {
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    text-align: center;
+    backface-visibility: hidden;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+
+/*
+We also add a transition and set the backface-visibility to hidden to avoid a jump in the text rendering in the end of the transition. You don’t have to use that if you don’t mind the little glitch.
+On hover (or on touch) we will set the opacity to 1 and translate the figcaption a bit:
+*/
+
+.no-touch .cs-style-1 figure:hover figcaption,
+.cs-style-1 figure.cs-hover figcaption {
+    opacity: 1;
+    transform: translate(15px, 15px);
+}
+
+
+/*Additionally, we will position the text elements:*/
+
+.cs-style-1 figcaption h3 {
+    margin-top: 70px;
+}
+
+.cs-style-1 figcaption span {
+    display: block;
+}
+
+.cs-style-1 figcaption a {
+    margin-top: 30px;
 }
