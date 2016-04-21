@@ -1,8 +1,8 @@
 .container {
-    background-image: url(../images/photo-1452860606245-08befc0ff44b.jpg);
+    background: url('http://thecodeplayer.com/u/m/b1.png') no-repeat center center fixed;
+    background-size: cover;
     width: 100%;
     max-width: 5184px;
-    height: auto;
     /*    background: cover;*/
 }
 
