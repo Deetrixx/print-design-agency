@@ -24,8 +24,9 @@ html {
 body {
     font-size: 1.6rem;
     font-family: "Source Sans Pro", sans-serif;
-    color: #E0C8C8;
-    background-color: #0d0d0d;
+    color: #0d0d0d;
+    background-color: #E0C8C8;
+    font-weight: 400px;
 }
 
 a {
