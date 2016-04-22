@@ -135,13 +135,9 @@
          Caption Hover Effect
 *******************************************************/
 
-#portfolio figure {
-    display: inline;
-}
-
 .grid {
     padding: 20px 20px 100px 20px;
-    max-width: 1370px;
+    max-width: 1300px;
     margin: 0 auto;
     list-style: none;
     text-align: center;
@@ -149,7 +145,7 @@
 
 .grid li {
     display: inline-block;
-    width: 1000px;
+    width: 300px;
     margin: 0;
     padding: 20px;
     text-align: left;
@@ -161,18 +157,11 @@
     position: relative;
 }
 
-
-/*The image will have a maximum width of 100% which will come in handy when we define a media query to resize the list items:*/
-
 .grid figure img {
     max-width: 100%;
-    display: inline-block;
+    display: block;
     position: relative;
 }
-
-
-/*
-The figcaption will be positioned absolutely. By default it will be positioned in the top left corner. We won’t define any width or height here as we will do so in all the individual styles:*/
 
 .grid figcaption {
     position: absolute;
@@ -182,10 +171,6 @@ The figcaption will be positioned absolutely. By default it will be positioned i
     background: #2c3f52;
     color: #ed4e6e;
 }
-
-
-/*And finally,
-let’s define some styles for the text elements and the link:*/
 
 .grid figcaption h3 {
     margin: 0;
@@ -206,6 +191,16 @@ let’s define some styles for the text elements and the link:*/
     color: #fff;
 }
 
+@media screen and (max-width: 31.5em) {
+    .grid {
+        padding: 10px 10px 100px 10px;
+    }
+    .grid li {
+        width: 100%;
+        min-width: 300px;
+    }
+}
+
 .cs-style-1 figcaption {
     height: 100%;
     width: 100%;
@@ -215,20 +210,11 @@ let’s define some styles for the text elements and the link:*/
     transition: transform 0.3s, opacity 0.3s;
 }
 
-
-/*
-We also add a transition and set the backface-visibility to hidden to avoid a jump in the text rendering in the end of the transition. You don’t have to use that if you don’t mind the little glitch.
-On hover (or on touch) we will set the opacity to 1 and translate the figcaption a bit:
-*/
-
 .no-touch .cs-style-1 figure:hover figcaption,
 .cs-style-1 figure.cs-hover figcaption {
     opacity: 1;
     transform: translate(15px, 15px);
 }
-
-
-/*Additionally, we will position the text elements:*/
 
 .cs-style-1 figcaption h3 {
     margin-top: 70px;
@@ -253,7 +239,7 @@ On hover (or on touch) we will set the opacity to 1 and translate the figcaption
 
 .grid a {
     float: left;
-    max-width: 250px;
+    max-width: 300px;
     width: 25%;
     color: #333;
 }
@@ -378,7 +364,5 @@ The fill color of the path will be white: .grid svg path {
     height: 768px;
 }
 
-.imgH img {
-    width: 900px;
-    height: 250px;
+
 }
