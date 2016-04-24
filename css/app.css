@@ -145,7 +145,7 @@
 
 .grid li {
     display: inline-block;
-    width: 300px;
+    width: 500px;
     margin: 0;
     padding: 20px;
     text-align: left;
@@ -197,7 +197,7 @@
     }
     .grid li {
         width: 100%;
-        min-width: 300px;
+        min-width: 500px;
     }
 }
 
