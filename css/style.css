@@ -22,9 +22,9 @@ html {
 }
 
 body {
-    font-size: 1.6rem;
+    font-size: 0.85rem;
     font-family: "Source Sans Pro", sans-serif;
-    color: #1F3440;
+    color: #361D3F;
     background-color: #0d0d0d;
 }
 
@@ -40,8 +40,8 @@ a {
 }
 
 .cd-title h1 {
-    font-size: 2.4rem;
-    font-weight: 700;
+    font-size: 1.1rem;
+    font-weight: 300;
 }
 
 @media only screen and (min-width: 768px) {
