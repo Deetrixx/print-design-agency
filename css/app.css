@@ -104,6 +104,7 @@
     font-size: 30px;
 }
 
+
 /*
 .introtext {
     background-image: url(../images/engineer-wallpaper-1366x768.jpg);
@@ -113,4 +114,6 @@
 .home {
     background-image: url(../images/engineer-wallpaper-1366x768.jpg);
     background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
 }

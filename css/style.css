@@ -70,13 +70,13 @@ a {
     margin: 1em auto;
 }
 
-@media only screen and (min-width: 568px) {
+@media only screen and (min-width: 768px) {
     .cd-intro {
         margin: 1em auto;
     }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1100px) {
     .cd-intro {
         margin: 1em auto;
     }
@@ -87,14 +87,14 @@ a {
     line-height: 1.2;
 }
 
-@media only screen and (min-width: 568px) {
+@media only screen and (min-width: 768px) {
     .cd-headline {
         font-size: 1.1rem;
         font-weight: 300;
     }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1000px) {
     .cd-headline {
         font-size: 2rem;
     }
