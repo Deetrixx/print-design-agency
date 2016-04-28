@@ -2,8 +2,8 @@
     background: #2F4F4F;
     font-family: 'Roboto Condensed', sans-serif;
     width: 100%;
-    max-height: 1200px;
-    height: auto;
+    max-height: 1366px;
+    height: 1500px;
 }
 
 
@@ -102,4 +102,15 @@
 .Aname {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 30px;
+}
+
+/*
+.introtext {
+    background-image: url(../images/engineer-wallpaper-1366x768.jpg);
+    background-repeat: no-repeat;
+}*/
+
+.home {
+    background-image: url(../images/engineer-wallpaper-1366x768.jpg);
+    background-repeat: no-repeat;
 }
