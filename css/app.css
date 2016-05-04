@@ -202,7 +202,8 @@
            Shape hover Effect
 *******************************************************/
 
-.grid {
+
+/*.grid {
     margin: 40px auto 120px;
     max-width: 1000px;
     width: 90%;
@@ -287,7 +288,9 @@
     position: absolute;
     top: -1px;
     /* fixes rendering issue in FF */
-    z-index: 10;
+
+
+/*  z-index: 10;
     width: 100%;
     height: 100%;
 }
@@ -330,6 +333,8 @@
 /*.demo-2 .grid figcaption p,
 */
 
+
+/*
 .demo-3 .grid figcaption h2,
 .demo-3 .grid figcaption p {
     timing-function: cubic-bezier(0.250, 0.250, 0.115, 1.445);
@@ -338,6 +343,8 @@
 
 /*.demo-2 .grid a:hover figcaption p,*/
 
+
+/*
 .demo-3 .grid a:hover figcaption p {
     transition-delay: 0s;
     transition-duration: 0.1s;
