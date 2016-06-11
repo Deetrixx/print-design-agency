@@ -428,3 +428,10 @@
     position: relative;
     background-position: center
 }
+
+.overlay {
+    height: 500px;
+    width: 100%;
+    opacity: 0.9;
+    background-color: black;
+}
