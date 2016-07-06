@@ -422,6 +422,7 @@
 .home {
     background-image: url(../images/engineer-wallpaper-1366x768.jpg);
     background-size: cover;
+    background-attachment: fixed;
     width: 100%;
     background-repeat: no-repeat;
     height: 500px;
