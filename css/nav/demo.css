@@ -191,7 +191,7 @@ a:focus {
     position: relative;
     overflow: hidden;
     min-height: 80vh;
-    padding: 0em 0 23em;
+    padding: 0em 0 0.8em;
 }
 
 .break {
