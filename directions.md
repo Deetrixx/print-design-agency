@@ -1,40 +1,20 @@
-### f1
-Create a responsive HTML,CSS  and JS one page website for a design agency with the [start](https://github.com/moringaschool/FrontEndExercises/tree/master/finish/f1/start) folder contents as the starting point for the website.
+# Exercise Two: Front End Assessment
+
+- You have 2 Hours to complete this task.
+- You are expectd to use foundation-zurb framework for this task.
+- Create a website using [core.jpeg](https://github.com/moringaschool/FrontEndExercises/blob/master/psd2html/e3/core.jpg) as a guide to how it will look like finaly.
 
 
-### REQUIREMENTS:
-- You will be using various components to finish it.
-- Your website should be responsive (We will test it on mobile to check whether it is working): USe Foundation. Add it to the start folder contents.
-- You have to use the **Roboto Condensed** and **Poiret One** font from google Fonts.
+Important:
+- Do not change the layout or image sizes.
+- Let the work be surrounded by a background of color code #524B58
+- Use [Google fonts](https://www.google.com/fonts) for fonts.
+- Colour codes for the various colours used are:  #565A69
 
-#### Deliverables
-- Use the images from the components  or you can download the images from [Unsplash](https://unsplash.com/) or [Magdaleine](http://magdeleine.co/).
-
-**MENUS/ Sections**
- 1. About
- 2. Blog(Another page)
- 3. Portfolio
- 4. Members
- 5. Home
- 6. Contact
+### EXTRA CREDITS
+(This is done upon completion of the above Important instruction)
+- Add an animation to the numbers on the profiles such that they start from zero and increase to the final number displayed.
+- Create a Hover effect for the various social sitescicular profile image such that on hover, it turns to a coloured picture but when not hovered it is black and white in color.
 
 
-**COMPONENTS TO USE:**
-  1. **[Article Intro Effect](http://tympanus.net/Development/ArticleIntroEffects/):**For the Blog page.
-  2. **[Shape Hover Effect](http://tympanus.net/Tutorials/ShapeHoverEffectSVG/):**For the team members.
-  3. **[Caption Hover Effects](http://tympanus.net/Tutorials/CaptionHoverEffects/):**To List 4 Projects the company has built.
-  4. **[Line Menu Styles](http://tympanus.net/Development/LineMenuStyles/):**For Menus
-  5. **[Animated SVG Icons](http://tympanus.net/Development/AnimatedSVGIcons/) and OR [Icon Hover Effect](http://tympanus.net/Development/IconHoverEffects/):** Use some of these icons.
-  6. **[Creative Link Effects](http://tympanus.net/Development/CreativeLinkEffects/):** For Links
-  7. **[Button Styles](http://tympanus.net/Development/ButtonStylesInspiration/):**For Button Styles
-  8. **[Text Input Effects](http://tympanus.net/Development/TextInputEffects/):** For text inputs i.e. Forms
-
-
-#### NOTE
-- Commit your changes to github
-- Create a Proper readme explaining what the project is about
-- Comment your code(Use in Line documentation).
-- Finish this site.
-
-
-All the best
+#### All the best
